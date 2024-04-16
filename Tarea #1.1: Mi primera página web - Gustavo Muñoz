@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Biografía</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            max-width: 800px;
+            /* Establecer el ancho máximo del contenedor */
+            margin: 20px auto;
+            /* Centrarlo */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Estilos para el título */
+        
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        
+        h2 {
+            font-size: 20px;
+            color: #333;
+        }
+        
+        .profile-img {
+            max-width: 175px;
+            /* Tamanio de imagen */
+            margin-top: 10px;
+        }
+        
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .biografia {
+            font-size: 16px;
+            color: #666;
+            text-align: justify;
+            /* justificar texto */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mi Biografía</h1>
+        <h2>Gustavo Enrique Muñoz Velez</h2>
+        <img src="profile.png" alt="Error al cargar imagen" class="profile-img">
+        <p>
+            ¡Hola!
+        </p>
+        <p class="biografia">
+            Me llamo Gustavo, tengo 20 años de edad, mi cumpleaños es el 17 de noviembre. Me gustan mucho las gaseosas y las matemáticas. Algo que puedo destacar de mí es que aprendo muy rápido en general. Mis pasatiempos son jugar videojuegos o simplemente ver series
+            o películas. Actualmente estudio la carrera de tecnologías de la información, la cual pertenece a la facultad de ingeniería civil y voy en quinto semestre.
+        </p>
+        <p class="biografia">
+            Estudié en el Colegio de Bachillerato Nueve de Octubre, me gradué de bachiller en ciencias. Durante mis estudios en el colegio, lo que mejor se me daba eran las matemáticas. Las demás materias se me daban algo regular, como las ciencias naturales, estudios
+            sociales y lenguaje. Siempre me esforcé y hasta el día de hoy me esfuerzo por tener unas notas buenas y destacar hasta cierto punto.
+        </p>
+        <p class="biografia">
+            Ahora mismo estoy a la mitad de la educación superior para profesional, pero una de mis metas es irme al extranjero, específicamente a los Estados Unidos. Quiero salir adelante por mis propios medios y asegurarme la vida a partir del trabajo duro.
+        </p>
+        <p class="biografia">
+            Algo que también quiero agregar es que, además de estudiar Tecnologías de la Información, tengo interés en seguir la carrera de Ingeniería Civil. Es una materia que me llama mucho la atención y así podré tener más opciones laborales relacionadas con mis
+            intereses.
+        </p>
+    </div>
+</body>
+
+</html>
